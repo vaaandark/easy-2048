@@ -30,11 +30,11 @@ int move_times = 0;
 
 /* some numbers with a bit of magic */
 /* I cannot make others understand those number */
-int start_array[] = {0, 12, 0, 3};
-int opp_start_array[] = {12, 0, 3, 0};
-int change_bit_order[] = {5, 4, 7, 6};
-int step_len_array[] = {1, 1, 4, 4};
-int stride[] = {4, -4, 1, -1};
+const int start_array[] = {0, 12, 0, 3};
+const int opp_start_array[] = {12, 0, 3, 0};
+const int change_bit_order[] = {5, 4, 7, 6};
+const int step_len_array[] = {1, 1, 4, 4};
+const int stride[] = {4, -4, 1, -1};
 
 void print_map()
 {
@@ -197,3 +197,4 @@ int main(void)
 	}
 	return 0;
 }
+
